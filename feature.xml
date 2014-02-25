@@ -37,11 +37,11 @@
          version="0.0.0"/>
 
    <includes
-         id="org.eclipse.platform"
+         id="org.eclipse.equinox.p2.extras.feature"
          version="0.0.0"/>
 
    <includes
-         id="org.eclipse.platform.source"
+         id="org.eclipse.equinox.p2.extras.feature.source"
          version="0.0.0"/>
 
 </feature>
