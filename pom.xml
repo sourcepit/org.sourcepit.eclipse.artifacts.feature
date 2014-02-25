@@ -149,8 +149,6 @@
 							<inputBundles>
 								<value>!**.ui.**</value>
 								<value>!**.ui</value>
-								<value>org.eclipse.emf.**</value>
-								<value>org.eclipse.equinox.**</value>
 							</inputBundles>
 							<options>
 								<property>
