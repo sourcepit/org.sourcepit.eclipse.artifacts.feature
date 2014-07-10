@@ -136,12 +136,8 @@
 							<altDeploymentRepository>srcpit-releases::default::http://nexus.sourcepit.org/content/repositories/thirdparty</altDeploymentRepository>
 							<localRepositoryPath>${project.build.directory}/repo</localRepositoryPath>
 							<targetType>osgi</targetType>
-							<groupIdPrefix>srcpit</groupIdPrefix>
-							<group3Prefixes>
-								<entry>org.eclipse</entry>
-							</group3Prefixes>
 							<groupIdMappings>
-								<value>org.eclipse.equinox.p2.**=org.eclipse.equinox.p2</value>
+								<value>**=srcpit.mavenized</value>
 							</groupIdMappings>
 							<inputBundles>
 								<value>!**.ui.**</value>
