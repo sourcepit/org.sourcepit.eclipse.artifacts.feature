@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.sourcepit</groupId>
 		<artifactId>srcpit-parent</artifactId>
-		<version>19</version>
+		<version>23</version>
 	</parent>
 
 	<groupId>org.sourcepit</groupId>
@@ -15,10 +15,10 @@
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
-		<tycho.version>0.21.0</tycho.version>
-		<maven.deployPlugin.version>2.7</maven.deployPlugin.version>
-		<maven.installPlugin.version>2.3.1</maven.installPlugin.version>
-		<maven.sourcePlugin.version>2.1.2</maven.sourcePlugin.version>
+		<tycho.version>0.26.0</tycho.version>
+		<maven.deployPlugin.version>2.8.2</maven.deployPlugin.version>
+		<maven.installPlugin.version>2.5.2</maven.installPlugin.version>
+		<maven.sourcePlugin.version>3.0.1</maven.sourcePlugin.version>
 	</properties>
 
 	<repositories>
@@ -28,7 +28,7 @@
 		</repository>
 		<repository>
 			<id>eclipse-luna</id>
-			<url>http://download.eclipse.org/releases/luna</url>
+			<url>http://download.eclipse.org/releases/neon</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
@@ -135,7 +135,7 @@
 			<plugin>
 				<groupId>org.sourcepit</groupId>
 				<artifactId>mavenizor-maven-plugin</artifactId>
-				<version>0.20.0</version>
+				<version>0.24.0</version>
 				<executions>
 					<execution>
 						<goals>
