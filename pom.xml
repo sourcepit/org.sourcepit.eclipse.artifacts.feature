@@ -135,7 +135,7 @@
 			<plugin>
 				<groupId>org.sourcepit</groupId>
 				<artifactId>mavenizor-maven-plugin</artifactId>
-				<version>0.24.0</version>
+				<version>0.25.0</version>
 				<executions>
 					<execution>
 						<goals>
@@ -143,6 +143,7 @@
 							<goal>deploy-bundles</goal>
 						</goals>
 						<configuration>
+							<forceOverwriteProjectBundles>false</forceOverwriteProjectBundles>
 							<altDeploymentRepository>srcpit-releases::default::http://nexus.sourcepit.org/content/repositories/thirdparty</altDeploymentRepository>
 							<localRepositoryPath>${project.build.directory}/repo</localRepositoryPath>
 							<targetType>osgi</targetType>
