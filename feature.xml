@@ -87,13 +87,21 @@
    <includes
          id="org.eclipse.ecf.filetransfer.httpclient4.source.feature"
          version="0.0.0"/>
-         
+
    <includes
          id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"
          version="0.0.0"/>
 
    <includes
          id="org.eclipse.ecf.filetransfer.httpclient4.ssl.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.emf.compare"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.emf.compare.source"
          version="0.0.0"/>
 
    <plugin
